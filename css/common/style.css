@@ -7,12 +7,6 @@
 @import "../work/q6/style.css";
 @import "../work/q7/style.css";
 
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both;
-}
-
 /* ヘッダー */
 
 .layout_head_logo,
@@ -39,6 +33,11 @@
   z-index: 9999;
 }
 
+.layout_head_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .layout_head_logo {
   font-size: 40px;
   line-height: 42px;
@@ -56,7 +55,6 @@
   text-align: center;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2);
   box-sizing: border-box;
-  float: right;
   cursor: pointer;
 }
 
