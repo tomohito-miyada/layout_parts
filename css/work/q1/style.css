@@ -3,11 +3,6 @@
 
 /* q1が終わったら
 q2のcssはq2フォルダの中のcssファイルに記述してください */
-.clearfix ::after{
-  content: "";
-  display: block;
-  clear: both;
-}
 
 .q1_box {
   float: left;
