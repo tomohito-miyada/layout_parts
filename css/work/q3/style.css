@@ -88,7 +88,7 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   right: 0;
 }
 
-.q3_fixed_box{
+.q3_fixed_box_position{
   position: fixed;
   bottom: 10px;
   right: 10px;
