@@ -3,3 +3,78 @@
 
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
+
+.q6_flex{
+  display: flex;
+  justify-content: center;
+}
+
+.q6_img_block{
+  width: 300px;
+  margin-left: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.q6_img_block:first-child{
+  margin-left: 0;
+}
+
+.q6_img{
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.q6_img_zoom:hover .q6_img{
+  transform: scale(1.5);
+}
+
+.q6_text_block{
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background:  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8));
+  transition: all 0.5s;
+}
+
+.q6_text_block p{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.q6_text_slideup:hover .q6_text_block{
+  bottom: 0;
+}
+
+.q6-2_key_visual{
+  width: 960px;
+  overflow: hidden;
+}
+
+.key_visual_text{
+  box-sizing: border-box;
+  padding: 80px 0;
+}
+
+.key_visual_text p{
+  font-size: 200px;
+  animation: loop 10s linear infinite;
+}
+
+@keyframes loop{
+  0%{
+      transform: translateX(100%);
+  }
+  100%{
+        transform: translateX(-100%);
+  }
+}
