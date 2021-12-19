@@ -40,7 +40,7 @@ q7のcssはq7フォルダの中のcssファイルに記述してください */
   transition: all 0.5s;
 }
 
-.q6_text_block p{
+.q6_text{
   position: absolute;
   left: 0;
   bottom: 0;
@@ -63,9 +63,6 @@ q7のcssはq7フォルダの中のcssファイルに記述してください */
 .key_visual_text{
   box-sizing: border-box;
   padding: 80px 0;
-}
-
-.key_visual_text p{
   font-size: 200px;
   animation: loop 10s linear infinite;
 }
